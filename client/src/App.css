@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,500&display=swap');
+
+
+@media(min-width:768px) {
+  .transaction_card{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: fit-content;
+  }
+  .navbar{
+    width: 100%;
+  }
+  .navbar-toggler-icon{
+    color: aliceblue;
+    background-color: aliceblue;
+  }
+  
+}
+
+.transaction_card{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: absolute;
+    margin-top: -25px;
+   
+    /* margin-left: -100px; */
+    top: 20%;
+    left:25%;
+   
+    /* left: 50%; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.transaction_card_button :hover{
+    background-color: black;
+}
+.navbar a{
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.navbar a:hover{
+   color: yellow;
+}
+
+.home_page{
+       
+  width:100%;
+  height: 100vh;
+   background-color: #0f0b35;
+   color: white;
+}
+.footer{
+  position: fixed;
+  height: 30px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px
+}
+.footer a{
+  text-decoration: none;
+}
+.footer a:hover{
+color: yellow
+}
+.home_btn button{
+  color: black;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: bold;
+}
+.home_btn button:hover{
+  background-color: yellow;
+  color: black;
+}
+
+
+
+.Home {
+    background-color: #eee;
+    margin: 4rem;
+    padding: 2rem 4rem;
+  }
+  
+  .Home h1 {
+    margin-bottom: 1rem;
+  }
+  .images {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+  
+  .Home img {
+    max-width: 100%;
+    max-height: 20rem;
+  }
+
+
+
+
+  
